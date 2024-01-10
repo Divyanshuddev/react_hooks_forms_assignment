@@ -1,0 +1,93 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+label{
+    display: flex;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: Black;
+    font-size: 2rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"]{
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    border:none;
+    border-bottom: 5px solid #7ebb5c;
+    background-color: #e5e8ed;
+    accent-color: #7ebb5c;
+}
+
+p{
+    color: red;
+    display: flex;
+}
+
+.gender{
+    display: flex;
+    gap: 20px;
+
+    label{
+        font-size: 1.5rem;
+    }
+}
+
+input[type="radio"]{
+    width: 5%;
+    color: white;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.outer_Project{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+textarea{
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    accent-color: #5c2dd5;
+    border: none;
+    border-bottom: 5px solid #7ebb5c;
+    background-color: #e5e8ed;   
+}
+
+select{
+    width: 450px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e5e8ed;
+    color: black;
+    border-bottom: 5px solid #7ebb5c;
+}
+
+.user_details{
+    h1{
+        color: #3c751e;
+        text-shadow: 2px 2px 5px white;
+        font-size: 25px;
+    }
+    h4{
+        color: white;
+        font-size: 20px;
+    }
+}
